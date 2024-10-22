@@ -13,7 +13,6 @@ public final class CombatLog extends JavaPlugin implements Listener {
         instance = this;
         CombatLogManager combatLogManager = CombatLogManager.INSTANCE;
 
-        System.out.println("Combat Log Enabled");
         Bukkit.getPluginManager().registerEvents(new combatEvents(), this);
     }
 
